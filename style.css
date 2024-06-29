@@ -1,0 +1,38 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background-color: #f0f0f0;
+}
+
+#app {
+    max-width: 600px;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: white;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.hidden {
+    display: none;
+}
+
+#product img {
+    max-width: 100%;
+    height: auto;
+    transition: opacity 0.5s ease;
+}
+
+#navigation {
+    margin-top: 20px;
+}
+
+#navigation button {
+    padding: 10px 20px;
+    margin: 0 10px;
+    font-size: 16px;
+}
+
+#loading, #error {
+    font-size: 18px;
+    color: #555;
+}
